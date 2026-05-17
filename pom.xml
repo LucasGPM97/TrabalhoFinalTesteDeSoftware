@@ -15,14 +15,12 @@
     </properties>
 
     <dependencies>
-        <!-- MySql -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
 
-        <!-- iText PDF -->
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>kernel</artifactId>
@@ -39,6 +37,13 @@
             <groupId>com.itextpdf</groupId>
             <artifactId>io</artifactId>
             <version>7.2.3</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
